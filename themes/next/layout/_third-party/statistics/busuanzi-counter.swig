@@ -6,7 +6,7 @@
     <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-{{ theme.busuanzi_count.total_visitors_icon }}"></i>
-      </span>
+      </span>访客数
       <span class="site-uv" title="{{ __('footer.total_visitors') }}">
         <span id="busuanzi_value_site_uv"></span>
       </span>
@@ -21,7 +21,7 @@
     <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
       <span class="post-meta-item-icon">
         <i class="fa fa-{{ theme.busuanzi_count.total_views_icon }}"></i>
-      </span>
+      </span>访问量
       <span class="site-pv" title="{{ __('footer.total_views') }}">
         <span id="busuanzi_value_site_pv"></span>
       </span>
