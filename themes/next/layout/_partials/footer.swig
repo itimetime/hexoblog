@@ -1,14 +1,3 @@
-{%- if theme.footer.beian.enable %}
-  <div class="beian">
-    {{- next_url('http://www.beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}
-    {%- if theme.footer.beian.gongan_icon_url %}
-      <img src="{{ theme.footer.beian.gongan_icon_url }}" style="display: inline-block;">
-    {%- endif %}
-    {%- if theme.footer.beian.gongan_id and theme.footer.beian.gongan_num %}
-      {{- next_url('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=' + theme.footer.beian.gongan_id, theme.footer.beian.gongan_num + ' ') }}
-    {%- endif %}
-  </div>
-{%- endif %}
 
 <div class="copyright">
   {% set copyright_year = date(null, 'YYYY') %}
@@ -19,7 +8,20 @@
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright or author }}</span>
 
-  {%- if config.symbols_count_time.total_symbols %}
+  {%- if theme.footer.beian.enable %}
+   <span class="post-meta-divider">|</span>
+  <span class="beian">
+    {{- next_url('http://www.beian.miit.gov.cn', theme.footer.beian.icp + ' ') }}
+    {%- if theme.footer.beian.gongan_icon_url %}
+      <img src="{{ theme.footer.beian.gongan_icon_url }}" style="display: inline-block;">
+    {%- endif %}
+    {%- if theme.footer.beian.gongan_id and theme.footer.beian.gongan_num %}
+      {{- next_url('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=' + theme.footer.beian.gongan_id, theme.footer.beian.gongan_num + ' ') }}
+    {%- endif %}
+  </span>
+  {%- endif %}
+
+  {%- if config.symbols_count_time.total_symbols1 %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
@@ -30,7 +32,7 @@
     <span title="{{ __('symbols_count_time.count_total') }}">{{ symbolsCountTotal(site) }}</span>
   {%- endif %}
 
-  {%- if config.symbols_count_time.total_time %}
+  {%- if config.symbols_count_time.total_time1 %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
@@ -78,8 +80,8 @@
         mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
         seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
         snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
-        document.getElementById("timeDate").innerHTML = "本站已运行了 "+dnum+" 天 "; 
-        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+        document.getElementById("timeDate").innerHTML = "小站已运行了 "+dnum+" 天 "; 
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒啦"; 
     } 
 setInterval("createtime()",250);
 </script>
