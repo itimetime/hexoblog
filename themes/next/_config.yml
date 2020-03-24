@@ -446,7 +446,7 @@ font:
   headings:
     external: true
     family: ZCOOL XiaoWei
-    size:
+    size: 
 
   # Font settings for posts (.post-body).
   posts:
@@ -456,7 +456,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Roboto Slab
+    family: 
 
 
 
