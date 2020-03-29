@@ -55,5 +55,6 @@
   {%- if theme.pjax %}
     </div>
   {%- endif %}
+  {% include '_ck/cursor.swig' %}
 </body>
 </html>

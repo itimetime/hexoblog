@@ -10,7 +10,7 @@ date: 2020-02-29 07:06:30
 
 {% cq %}
 
-##### 关于我
+##### <i class="fa fa-paper-plane" aria-hidden="true"></i> 关于我
 
 95后，现居上海。
 正在努力奋斗的普通人er~
@@ -21,7 +21,7 @@ date: 2020-02-29 07:06:30
 
 ---
 
-##### 更新历史
+##### <i class="fa fa-pencil" aria-hidden="true"></i> 更新历史
 
 <div id="teamnewslist">
 <ol>
