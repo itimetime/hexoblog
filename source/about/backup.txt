@@ -1,0 +1,8 @@
+<div id="teamnewslist">
+<ol>
+<a title="点击查看详细记录日志" href="http://itimetime/2020/03/01/updatahistory/" target="_blank">详细记录日志</a>
+<li><b>2020年03月24日</b>界面美化，www域名设置重定向。</li>
+<li><b>2020年03月</b>优化访问速度，迁移至腾讯云，添加评论搜索等各项功能。</li>
+<li><b>2020年02月</b>博客正式建立。</li>
+</ol>
+</div>

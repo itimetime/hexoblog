@@ -2,7 +2,6 @@
 title: Typora的使用和基本的Markdown语法
 date: 2020-03-03 23:09:30
 tags:  Markdown
-category:  Junior
 ---
 
 #### 前言：

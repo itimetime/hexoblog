@@ -1027,4 +1027,7 @@ images: images
 # 2020/3/29 鼠标点击效果
 cursor_effect:
   enabled: true
-  type: love # fireworks：礼花 | explosion：爆炸 | love：浮出爱心 | text：浮出文字
+  type: canvas # fireworks：礼花 | explosion：爆炸 | love：浮出爱心 | text：浮出文字 | canvas：爆炸效果
+
+denglong:
+  enabled: false

@@ -7,8 +7,6 @@ tags:
 
 记录一次面试题吧，题目如下：
 
-{% note info no-icon %}
-
 Write a script that reads all files from a folder (A), compares the files with another folder (B) and sorts files into 3 folders.
 
 1. “Files only exist in folder A” 
@@ -16,8 +14,6 @@ Write a script that reads all files from a folder (A), compares the files with a
 2. “Files only exist in folder B”
 
 3. “Files exist in both folders
-
-{% endnote %}
 
 翻译成中文大约是，写一个脚本，A，B两个文件夹，找出仅存在与A的文件，仅存在于B的文件，两个都同时存在的文件，并把分别放到三个文件夹中。
 
