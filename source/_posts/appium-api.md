@@ -1,5 +1,5 @@
 ---
-title: appium相关API整理
+title: Appium相关API整理
 date: 2020-05-10 22:04:26
 tags: Appium
 ---
@@ -20,7 +20,10 @@ driver.find_element_by_tag_name("name")  # 通过查找html的标签名称定位
 driver.find_element_by_xpath("xpath")  # 路径定位
 driver.find_element_by_class_name("android.widget.LinearLayout")  # 类名定位
 driver.find_element_by_css_selector("css") # css选择器定位
+```
+<!--more-->
 
+```python
 # 元素集合复数定位
 driver.find_elements_by_id("id")  # id元素集合
 driver.find_elements_by_name("name") # name元素集合
